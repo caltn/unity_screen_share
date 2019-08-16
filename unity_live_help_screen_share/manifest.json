@@ -1,7 +1,7 @@
 {
     "name" : "Unity Live Help Screen Share",
     "author": "unity connect",
-    "version" : "1.0.1",
+    "version" : "1.0.2",
     "manifest_version" : 2,
     "minimum_chrome_version": "34",
     "description" : "Unity Live Help Screen Share",
@@ -27,7 +27,11 @@
             "*://connect-local.unity.com/*",
             "*://connect-test.unity.com/*",
             "*://connect-staging.unity.com/*",
-            "*://connect.unity.com/*"
+            "*://connect.unity.com/*",
+            "*://livehelp-local.unity.com/*",
+            "*://livehelp-int.unity.com/*",
+            "*://livehelp-staging.unity.com/*",
+            "*://livehelp.unity.com/*"
         ]
     }
 }
